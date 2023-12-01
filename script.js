@@ -102,7 +102,7 @@ function removeAction() {
 
 //funkcija za gibanje balona//
 const content = document.querySelector(".main-container");
-const contentHeight = content.innerHeight;
+const contentHeight = content.offsetHeight;
 const mjehurPrvi = document.querySelector(".one");
 const mjehurDrugi = document.querySelector(".two");
 const mjehurTreci = document.querySelector(".three");
